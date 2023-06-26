@@ -8,7 +8,7 @@ import { useNavigation } from '@react-navigation/native';
 const ChatList = () => {
   const [isDialogVisible, setIsDialogVisible] = useState(false);
   const [email, setEmail] = useState('');
-  const [userEmail, setUserEmail] = useState(''); // setUserEmail olarak değiştirildi
+  const [userEmail, setUserEmail] = useState('');
 
   useEffect(() => {
     firebase.auth().onAuthStateChanged((user) => {

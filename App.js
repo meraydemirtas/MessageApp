@@ -13,12 +13,6 @@ import firebase from 'firebase/compat/app';
 import "firebase/compat/auth";
 import "firebase/compat/firestore";
 
-
-
-//ChatList kısmının refresh süresi nasıl ayarlanır 
-
-
-
 const firebaseConfig = {
   apiKey: "AIzaSyBOHF703X1jR_DPJkSlwyFwZcvulx2zVrk",
   authDomain: "messageapp-5978e.firebaseapp.com",
